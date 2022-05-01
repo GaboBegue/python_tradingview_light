@@ -64,7 +64,7 @@ class Tv:
             raise Exception(f'Fatal error: review and write market')
         else:
             url_req = f'{self.tv_url}{self.market.lower()}/scan'
-            headers = {'User-Agent': f'tradingv_gab/{version}'}
+            headers = {'User-Agent': f'tradingview_data_wrapper/{version}'}
             response = requests.post(url_req, json=json_data, headers=headers, timeout=5)
             if response.json()['data'] is not []:
                 data_keys = [f'{i.lower()}_{str(j)}' for i in self.indicators for j in range(0, 4)]

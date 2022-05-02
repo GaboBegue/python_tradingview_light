@@ -3,7 +3,7 @@ Retrieves real-time data from any Tradingview symbol and returns a Python dictio
 
 ## Install
 
-Download the **tradingview_light.py** file and save it to your Python project directory
+`pip install python-tradingview-light==1.0`
 
 ## How to work
 

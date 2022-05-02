@@ -3,13 +3,13 @@ Retrieves real-time data from any Tradingview symbol and returns a Python dictio
 
 ## Install
 
-Download the **TVwrapper.py** file and save it to your Python project directory
+Download the **tradingview_light.py** file and save it to your Python project directory
 
 ## How to work
 
-***Import TVwrapper***
+***Import tradingview_light***
 
-`from TVwrapper import *`
+`from tradingview_light import *`
 
 
 ***Use the Tv class.

@@ -1,4 +1,4 @@
-# Tradingview data wrapper (tradingview-dw)
+# Tradingview Light (tradingview-light)
 # Author: GaboBegue (https://github.com/GaboBegue)
 # License: MIT
 
